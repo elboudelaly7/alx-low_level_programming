@@ -16,3 +16,4 @@ void positive_or_negative(int i)
 		printf("%d is zero\n", i);
 
 }
+int largest_number(int a, int b, int c);
