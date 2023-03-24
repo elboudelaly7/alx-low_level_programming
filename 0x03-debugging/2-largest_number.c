@@ -1,4 +1,3 @@
-carrie@ubuntu:/debugging$ cat 2-largest_number.c
 #include "main.h"
 
 /**
