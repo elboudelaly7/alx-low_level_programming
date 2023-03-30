@@ -1,8 +1,4 @@
 #include <stdio.h>
-/**
- * main - main function.
- * Return: return to main.
- */
 
 int main(void)
 {
