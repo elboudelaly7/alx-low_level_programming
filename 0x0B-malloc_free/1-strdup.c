@@ -6,7 +6,7 @@
 
 /**
 
- * _strdup - elboudelaly elmahdi
+ * _strdup - duplicate to new memory space location
 
  * @str: char
 
