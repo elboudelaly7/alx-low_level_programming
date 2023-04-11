@@ -20,7 +20,7 @@ char *_strdup(char *str)
 
 	char *aaa;
 
-	int i, n = 0;
+	int i, r = 0;
 
 
 
@@ -46,9 +46,9 @@ char *_strdup(char *str)
 
 
 
-	for (n = 0; str[r]; n++)
+	for (r = 0; str[r]; r++)
 
-		aaa[n] = str[n];
+		aaa[r] = str[r];
 
 
 
