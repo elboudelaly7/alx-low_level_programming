@@ -4,15 +4,10 @@
 /**
 
  * *create_array - el boudelaly,
-
- * barcelona best club in world.
-
+ * and initializes it with a specific char.
  * @size: size of array
-
  * @c: char to initialize
-
- * Return: pointer to the array initialized or NULL
-
+ * Return: pointer to the array initialized or NULL.
 */
 
 char *create_array(unsigned int size, char c)
