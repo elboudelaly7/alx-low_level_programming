@@ -9,9 +9,9 @@
 
  * @size: size of array
 
- * @c: char to assign
+ * @c: char to initialize
 
- * Return: pointer to array, NULL if fail
+ * Return: pointer to the array initialized or NULL
 
 */
 
@@ -19,14 +19,14 @@ char *create_array(unsigned int size, char c)
 
 {
 
-	char *n = malloc(size);
+	char *m = malloc(size);
 
-	if (size == 0 || n == 0)
+	if (size == 0 || m == 0)
 		return (0);
 
 	while (size--)
-		n[size] = c;
+		m[size] = c;
 
-	return (n);
+	return (m);
 
 }
