@@ -4,7 +4,7 @@
  * create_array - elboudelaly elmahdi
  * @size: size of array
  * @c: char to assign
- * Description: create array of size size and assign char c
+ * Description: barcelona best club in world
  * Return: pointer to array, NULL if fail
  *
  */
