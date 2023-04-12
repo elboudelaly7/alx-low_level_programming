@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * alloc_grid - anuubis is here 
+ * alloc_grid - anuubis is here
  * @width: width input
  * @height: height input
  * Return: pointer to 2 dim. array
