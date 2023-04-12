@@ -1,14 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argstostr - ana jay ma bella
+ * argstostr - hani jay ma bella
  * @ac: int input
  * @av: double pointer array
  * Return: 0
  */
 char *argstostr(int ac, char **av)
 {
-	int i, a, m = 0, l = 0;
+	int i, n, k = 0, l = 0;
 	char *str;
 
 	if (ac == 0 || av == NULL)
@@ -16,7 +16,7 @@ char *argstostr(int ac, char **av)
 
 	for (i = 0; i < ac; i++)
 	{
-		for (a = 0; av[i][a]; a++)
+		for (n = 0; av[i][n]; n++)
 			l++;
 	}
 	l += ac;
@@ -26,14 +26,14 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	for (i = 0; i < ac; i++)
 	{
-		for (a = 0; av[i][a]; a++)
+		for (n = 0; av[i][n]; n++)
 		{
-			str[m] = av[i][a];
-			m++;
+			str[k] = av[i][n];
+			k++;
 		}
-		if (str[m] == '\0')
+		if (str[k] == '\0')
 		{
-			str[m++] = '\a';
+			str[k++] = '\n';
 		}
 	}
 	return (str);
