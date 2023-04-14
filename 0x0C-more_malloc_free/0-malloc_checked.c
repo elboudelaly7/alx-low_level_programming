@@ -1,18 +1,28 @@
-#include "main.h" 
-#include <stdlib.h>
-/**
- * malloc_checked - chno li khelak tbghini ma bella 
- * @b: number of bytes to allocates
- *
- * Return: a pointer to the allocated memory.
- * if malloc fails, status value is equal to 98.
- */
-void *malloc_checked(unsigned int b)
-{
-	char *m;
 
-	m = malloc(b);
-	if (m == NULL)
+#include <stdlib.h>
+
+#include "main.h"
+
+
+
+/**
+
+ * *malloc_checked - elboudelaly elmahdi.
+ * @b: number of bytes to allocate
+ * Return: a pointer to the allocated memory
+
+*/
+
+void *malloc_checked(unsigned int b)
+
+{
+
+	void *ptr;
+
+	ptr = malloc(b);
+	if (ptr == NULL)
 		exit(98);
-	return (m);
+
+	return (ptr);
+
 }
