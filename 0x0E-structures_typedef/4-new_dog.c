@@ -3,12 +3,12 @@
 /**
  * _strlen - this is anuubis remember me
  * @s: string to evaluate
- *
  * Return: the length of the string
  */
 int _strlen(char *s)
 {
 	int j;
+
 	j = 0;
 	while (s[j] != '\0')
 	{
@@ -22,12 +22,13 @@ int _strlen(char *s)
  * to the buffer pointed to by dest
  * @dest: pointer to the buffer in which we copy the string
  * @src: string to be copied
- *
  * Return: the pointer to dest
  */
 char *_strcpy(char *dest, char *src)
 {
+
 	int len, j;
+
 	len = 0;
 	while (src[len] != '\0')
 	{
@@ -45,13 +46,14 @@ char *_strcpy(char *dest, char *src)
  * @name: melu
  * @age: age of the dog
  * @owner: annubis
- *
  * Return: pointer to the new dog (Success), NULL otherwise
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog;
 	int len1, len2;
+
 	len1 = _strlen(name);
 	len2 = _strlen(owner);
 	dog = malloc(sizeof(dog_t));
