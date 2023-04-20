@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
 	int bytes, r;
 	char *arr;
+
 	if (argc != 2)
 	{
 		printf("Error\n");
