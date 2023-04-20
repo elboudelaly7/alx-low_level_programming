@@ -1,23 +1,22 @@
-#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 /**
  * print_numbers - i can go higher.
  * @separator: jericho jericho.
- * @r: The number of integers passed to the function.
+ * @n: The number of integers passed to the function.
  * @...: A variable number of numbers to be printed.
  */
-void print_numbers(const char *separator, const unsigned int r, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list nums;
 	unsigned int index;
-	va_start(nums, r);
-	for (index = 0; index < r; index++)
+	va_start(nums, n);
+	for (index = 0; index < n; index++)
 	{
 		printf("%d", va_arg(nums, int));
-		if (index != (r - 1) && separator != NULL)
+		if (index != (n - 1) && separator != NULL)
 			printf("%s", separator);
 	}
-	printf("\r");
+	printf("\n");
 	va_end(nums);
 }
