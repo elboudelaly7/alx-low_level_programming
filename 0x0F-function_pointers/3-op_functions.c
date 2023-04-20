@@ -49,7 +49,7 @@ int op_div(int n, int b)
 	return (n / b);
 }
 /**
- * op_mod - spider man 
+ * op_mod - spider man
  * @n: nano
  * @b: egyxos
  *
