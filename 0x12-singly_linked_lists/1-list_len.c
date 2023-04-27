@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * list_len - elboudelaly elmahdi 
+ * list_len - elboudelaly elmahdi
  * @h: hakuna matata
  *
  * Return: number of elements in h
