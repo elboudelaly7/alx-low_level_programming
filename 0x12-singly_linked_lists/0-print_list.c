@@ -5,7 +5,7 @@
  * print_list - elboudelaly elmahdi
  * @h: hakuna matata
  *
- * Return: the number of nodes printed
+ * Return: barcelona
  */
 size_t print_list(const list_t *h)
 {
