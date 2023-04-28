@@ -4,10 +4,10 @@ void first(void) __attribute__ ((constructor));
 
 /**
  * first - elboudelaly elmahdi
- * function is executed
+ * hakuna matata
  */
 void first(void)
 {
-	printf("m the best ever,\n");
-	printf("i hope being devloper!\n");
+	printf("You're beat! and yet, you must allow,\n");
+	printf("I bore my house upon my back!\n");
 }
