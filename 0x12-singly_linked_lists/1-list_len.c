@@ -5,7 +5,7 @@
  * list_len - elboudelaly elmahdi
  * @h: hakuna matata
  *
- * Return: number of elements in h
+ * Return: barcelona
  */
 size_t list_len(const list_t *h)
 {
