@@ -5,9 +5,9 @@
 /**
  * add_node_end - elboudelaly elmahdi
  * @head: idhemseven
- * @str: string to put in the new node
+ * @str: hakuna matata
  *
- * Return: address of the new element, or NULL if it failed
+ * Return: barcelona
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
