@@ -4,7 +4,7 @@
  * print_listint - elboudelaly elmahdi
  * @h: idhemseven7
  *
- * Return: anuubis
+ * Return: anuubiissss
  */
 size_t print_listint(const listint_t *h)
 {
